@@ -1,0 +1,139 @@
+body {
+    align: center;
+    font-size: 16px;
+    font-family: helvetica;
+    line-height: 130%;
+    color: #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: white;
+}
+
+
+a {
+    color: #db4437;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px solid #db4437;
+}
+
+p {
+    padding-top: 0.5em;
+    line-height: 0.75em;
+}
+
+#main {
+
+    margin-top: 1em;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+    border: none;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 0.7em;
+    padding-bottom: 3em;
+    background-color: white;
+    text-align: justify;
+}
+
+#contact {
+    padding-left: 0.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#email {
+    font-family: monospace;
+    font-size: 18px;
+}
+
+#page_title h1 {
+    line-height: 140%;
+    font-size: 2em;
+    margin-bottom: 0px;
+    color: #4285F4;
+    margin-top: 0.5em;
+}
+
+#page_title h2 {
+    font-size: 1.4em;
+    margin-top: 0px;
+    color: #999;
+    border: none;
+}
+
+.photo {
+    float: right;
+    width: 220px;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.sidebar {
+    float: right;
+}
+
+
+
+.title {
+    font-weight: bold;
+}
+
+.in {
+    font-style: italic;
+}
+
+.course {
+    margin-bottom: 0.5em;
+}
+
+.bio {
+    margin-bottom: 0.5em;
+}
+
+
+h2 {
+    margin-top: 2em;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    color: #DB4437;
+    border-bottom: solid 1px #DB4437;
+}
+
+h4 {
+    font-size: 19px;
+    margin-top: 0em;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: #DB4437;
+}
+
+h4:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 58%;
+    padding-top: 6px; 
+    padding-bottom: 2m;
+    border-bottom: 0px solid #DB4437; }
+
+
+
+
+p {
+    text-align: justify;
+}
+
+.bibtex {
+    background-color: #eee;
+    font-family: monospace;
+    margin: 1em;
+    padding: 1em;
+    display: none;
+}
