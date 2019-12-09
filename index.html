@@ -1,30 +1,74 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Title page</title>
-				<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
 
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, text here!</h1>
-				<p>text here <em>emph text here</em> Don't trust me. <a href="/about">other things</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-				<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<footer>
-    		<ul>
-        		<li><a href="https://github.com/q-berthet">github.com/q-berthet</a></li>
-			</ul>
-		</footer>
-	</body>
+
+
+<html>
+
+<script type="text/javascript" language="JavaScript">
+      <!--
+          num_images = 3;
+          
+          // Specify the first and last part of the image tag. 
+          
+          var images = [' "pictures/pqb1.jpg" width="220" height="220">',
+                        ' "pictures/pqb2.jpg" width="220" height="220">',
+			' "pictures/pqb3.jpg" width="220" height="220">'];
+          start = '<img src=';
+          
+          function printImage() {
+            var rand_real = Math.random()	
+            var rand_int = Math.floor(rand_real * num_images);
+            document.write(start + images[rand_int]);
+          }
+          //-->
+    </script>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Quentin Berthet</title>
+    <link type="text/css" href="homepage.css" rel="stylesheet" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  
+
+
+  <body>
+    <div id="main">
+      <div class="photo">
+	    <script type="text/javascript" language="JavaScript">
+      <!--
+          printImage();
+          //-->
+    </script>
+    
+      </div>
+
+      <div id="page_title">
+	<h1>Quentin Berthet</h1>
+	<h3>Research Scientist</br>
+	Google Research</br>
+	Brain team, Paris</h3>
+      </div>
+
+      <div id="contact">
+	<img src=g2.png align="middle" width="300" height="63">
+      </div>
+
+	<h4><center>[<a href="index.html">Home</a>] - [<a href="publications.html">Publications</a>] - [<a href="bio.html">Bio & CV</a>] - [<a href="links.html">Links</a>]</center></h4>  
+
+    <div id='maintext'>
+      	I am part of the <a href="http://ai.google/research/teams/brain/">Brain team</a> of <a href="http://ai.google/research/">Google Research</a>, in Paris. I work on core <b>Machine Learning</b>, with interests in <b>Statistics</b> and  <b>Optimization</b> to tackle these problems.      
+      	</div>	
+      	</br>
+        I did my Ph.D. at Princeton University and I am an alumni of Ecole Polytechnique.
+      	</br>
+      	
+      	<p>
+      	<a href="https://scholar.google.com/citations?user=bHwGZjcAAAAJ&hl=en">[Google Scholar profile]</a> 
+      	<p>
+      	<b>Program committee for</b>: COLT 2018, 2020, AISTATS 2020 (area chair), ICML 2020 (area chair)
+	<p>
+	<b>Associate editor</b> of Journal of the Royal Statistical Society Series B
+      	<p>
+        <b>Associate editor</b> of ESAIM Probability & Statistics
+	<p>
 </html>
